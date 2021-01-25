@@ -3,3 +3,7 @@
 # то программа запрашивает ввод снова.
 
 # TODO: your code here
+a = str(input("a: "))
+while a != "хватит":
+    print(a)
+    a = str(input("a: "))
